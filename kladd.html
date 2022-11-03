@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>INF226</title>
+    <link rel="stylesheet" href="static/css/index.css">
+    <link rel="icon" href="/static/img/favicon.png" type="image/png" />
+
+</head>
+
+<body>
+    <div id="page">
+        <marquee>
+            <div id="header"></div>
+        </marquee>
+        <main>
+            <pre id="output"></pre>
+        </main>
+        <div id="controls">
+            <label for="search">Search:</label>
+            <input type="search" id="search" name="search" enterkeyhint="search" value="*">
+            <button type="button" id="searchBtn">Search!</button>
+            <button type="button" id="allBtn">Show all</button>
+            <label for="sender">From:</label>
+            <input type="text" id="sender" name="sender" value="Alice">
+            <button type="button" id="sendBtn">Send</button>
+            <span></span>
+            <label for="message">Message:</label>
+            <textarea id="message" style="grid-row: span 4;">A message...</textarea>
+        </div>
+        <div id="anchor"></div>
+    </div>
+</body>
+<script src="static/scripts/index.js">
+</script>
+
+</html>
